@@ -44,3 +44,27 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
+.nav-item-link,
+.header-button {
+    text-transform: uppercase;
+}
+.nav-item-link:focus,
+.header-button:focus {
+    outline: 1px solid var(--light-color);
+}
+.header-button {
+    padding: 15px 25px;
+    border: 1px solid var(--light-color);
+    margin: 25px 0;
+
+    background-color: inherit;
+    color: inherit;
+
+    font-size: 0.8em;
+}
+.header-button:hover {
+    background-color: #373737;
+}
+.header-button:active {
+    background-color: #6d6d6d;
+}
