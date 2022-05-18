@@ -16,3 +16,31 @@
     background-color: var(--dark-color);
     color: var(--light-color);
 }
+.logo {
+    padding: 25px;
+    padding-left: 0;
+
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.7em;
+    text-transform: capitalize;
+}
+.logo,
+.nav-item-link,
+.header-button {
+    display: block;
+    min-width: 50px;
+    max-width: 150px;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+.nav-item {
+    display: inline-block;
+    padding-right: 25px;
+}
+.nav-item-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
